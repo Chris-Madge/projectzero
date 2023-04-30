@@ -1,3 +1,39 @@
+.yellowclickme,
+.blackclickme {
+    font-family: "Helvetica", "Times New Roman", "Sans-Serif";
+    font-size: 28px;
+}
+
+.blackclickme {
+    background-color: black;
+    color: white;
+}
+
+.yellowclickme {
+    background-color: yellow;
+    color: black;
+}
+
+.odd {
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+#css2 {
+    font-size: 36px;
+    color: blue;
+}
+
+#css3 {
+    font-size: 24px;
+}
+
+#css4 {
+    font-size: 24px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
 #css-head {
     color: blue
 }
