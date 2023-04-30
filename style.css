@@ -1,3 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.para,
+.small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+}
+
+
+.para {
+    font-size: 22px;
+}
+
+.small-para {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+
+/* Descendants */
+.ancestor .styled {
+    background-color: yellow;
+    color: red;
+    font-family: "Helvetics", "Times New Roman", "Sans-Derif";
+    font-size: 28px;
+}
+
+/* This is an example of me grouping selectors so they share the same styles. */
 .yellowclickme,
 .blackclickme {
     font-family: "Helvetica", "Times New Roman", "Sans-Serif";

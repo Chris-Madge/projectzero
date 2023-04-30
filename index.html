@@ -20,12 +20,44 @@ git remote add origin git@github.com:Chris-Madge/<reponame>.git
 git push -u origin master -->
 
 
+    <p class="para">I'm just a paragraph with extra bold text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+        <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div>
+
+    <!-- This is to practic descendants -->
+    <div class="ancestor">
+        <div class="styled">
+            <p>This should be styled.</p>
+        </div>
+        <div class="unstyled">
+            <p>This should be unstyled.</p>
+        </div>
+        <div class="unstyled">
+            <p>This should be unstyled</p>
+        </div>
+        <div class="styled">
+            <p>This should be styled.</p>
+        </div>
+        <div class="styled">
+            <p>This should be styled.</p>
+        </div>
+    </div>
+
+
+    <!-- This was used as an example of group selectors. -->
     <div class="blackclickme">
         <p>Click Me!</p>
     </div>
 
     <div class="yellowclickme">
-        <p>No, Clicke Me!</p>
+        <p>No, Click Me!</p>
     </div>
 
 
