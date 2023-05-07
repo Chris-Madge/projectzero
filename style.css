@@ -3,6 +3,65 @@
     box-sizing: border-box;
 }
 
+
+
+.card {
+    padding: 8px;
+}
+
+.title,
+.content,
+.button-container {
+    background-color: lightblue;
+    margin: 8px;
+}
+
+.title {
+    font-size: 16px;
+    padding: 8px;
+}
+
+.content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.button-container {
+    text-align: center;
+    padding: 8px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* .one {
+    padding: 32px;
+    margin: 12px;
+    background: pink;
+    border: blue solid
+}
+
+.two {
+    margin: 32px;
+    margin-bottom: 48px;
+    background: blue;
+    border: purple solid
+}
+
+.three {
+    margin-left: 500px;
+    background: orange;
+    border: darkorange solid;
+}
+
 .para,
 .small-para {
     color: hsl(0, 0%, 0%);
@@ -42,19 +101,19 @@ div.text {
     color: rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 100;
-}
+} */
 
 
 /* Descendants */
-.ancestor .styled {
+/* .ancestor .styled {
     background-color: yellow;
     color: red;
     font-family: "Helvetics", "Times New Roman", "Sans-Derif";
     font-size: 28px;
-}
+} */
 
 /* This is an example of me grouping selectors so they share the same styles. */
-.yellowclickme,
+/* .yellowclickme,
 .blackclickme {
     font-family: "Helvetica", "Times New Roman", "Sans-Serif";
     font-size: 28px;
@@ -92,4 +151,4 @@ div.text {
 
 #css-head {
     color: blue
-}
+} */
